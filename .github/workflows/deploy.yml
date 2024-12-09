@@ -15,6 +15,10 @@ jobs:
     # 해당 job을 실행하는 운영 체제
     runs-on: ubuntu-22.04
 
+    # 권한 설정
+    permissions:
+      contents: write
+
     # 수행할 동작 정의
     steps:
       # 1. 저장소 체크아웃
@@ -47,4 +51,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          force_orphan: true
