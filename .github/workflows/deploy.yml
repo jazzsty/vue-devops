@@ -14,8 +14,6 @@ jobs:
   deploy:
     # 해당 job을 실행하는 운영 체제
     runs-on: ubuntu-22.04
-    permissions:
-      contents: write
 
     # 수행할 동작 정의
     steps:
