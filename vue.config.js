@@ -3,6 +3,5 @@
 //   transpileDependencies: true,
 // });
 module.exports = {
-  publicPath: '/dist/',
-  outputDir: 'dist'
+  publicPath: '/vue-devops/'
 }

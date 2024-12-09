@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
+    <!-- 수정 코드 -->
     <HelloWorld msg="Deploy Test 3" />
   </div>
 </template>
